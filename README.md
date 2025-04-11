@@ -52,13 +52,15 @@ cd mnist
 pip -r requirements.txt
 ```
 
-3. Download MNIST dataset from Kaggle (https://www.kaggle.com/datasets/hojjatk/mnist-dataset):
+3. Download MNIST dataset from Kaggle :
 
-    - Place the MNIST data files in your data directory:
-        - train-images-idx3-ubyte
-        - train-labels-idx1-ubyte
-        - t10k-images-idx3-ubyte
-        - t10k-labels-idx1-ubyte
+    - Go to https://www.kaggle.com/datasets/hojjatk/mnist-dataset
+    - Click Download > Download dataset as zip
+    - Extract the file, this should give you
+        - train-images-idx3-ubyte (train)
+        - train-labels-idx1-ubyte (train)
+        - t10k-images-idx3-ubyte (test)
+        - t10k-labels-idx1-ubyte (test)
 
 ## Usage
 
