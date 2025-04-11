@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore config files and directories
+configs/*
+!configs/mlp.yaml
+
+# Ignore results files and directories
+results/*
